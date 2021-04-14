@@ -1,0 +1,64 @@
+Morse Code: 
+What do you think about the word  ‘Morse code!’ when you hear it ? You might think that It is something complex and coding related. 
+But wait, it is not complex at all , rather it is just the another representation of alphabets and numbers (ABC…123). The way we spell A as ‘ae’ and B as ‘bee’ , the same way morse code spells the letters into small repetition of short and long beeps ,short beep is represented and written as ‘.’ (dot) ,And long beep is represented as ‘-‘(dash) . These beeps can be recognised by humans and is also easy for electronic transmission . after all ,it is just a combination of dot and dash. It can be made by any repetition of sound, light or taps depending on the situation.
+Now , you might think what are the benefits of all this ?
+Yes, that question is obvious. Morse code had its benefits back in time , as at that time we didn’t have any communication system. People relied only on letters, and other means for communicating. Also morse code played an important role in world wars , and morse code was used as a base for development of telegraph system , which was later developed into telephone system , which you may be familiar with.
+If you want to learn morse code, then you will need to hear it first,: http://www.learnmorsecode.com or https://morsecode.world/international/translator.html
+What is the use of morse code in present modern days?
+We live in the era of fast internet and Faster computers, we share tons of data over the internet. Now this leads us to the problem of data privacy and security. No one wants their data to land in some evil hands… For this we use encryption, if you recall , morse code is nothing but representation of normal letters and numbers into another form, That the definition of encryption. And we can use this encryption method to encrypt our data. Just simple as that.
+ 
+The Morse Code Transmitter
+How to convert to morse code?
+Before converting anything to morse code, we must ensure that the provided string belongs to alphabets / numbers only , as the morse code doesn’t support any other characters.
+After that to covert we just need to compare the string letter by letter , and in the case where the letter matches the code which is already in program, we just print it. This can easily be done using switch statements in any programming languages.
+For example if the input is ABC ,
+We will compare the A first , then print the respective code for A in morse , i.e  ._ and then we would move on to the next letter B  and print its respective code, i.e  _... 
+Also we can use a sound function (beep) to hear the sound for every letter individually.
+This is how text is converted into morse.
+
+Binary Numbers;   
+When you hear this word ‘BINARY’ what comes to your mind?
+binary explains itself ‘bi’ means 2 ,this means that binary only has 2 numbers.
+In our traditional number system, i.e decimal system ,we use 10 digits to represent the numbers (0,1,2,3,4,5,6,7,8,9) .
+Why don’t we use decimal system everywhere?
+If we consider the case of computers, computers cannot understand all these digits discretely, because, computers work on small pulses of voltage of positive and negative charges. To overcome this issue , binary number system was introduced.
+Binary number only has 2 digits , 0 and 1 . This can be easily represented as voltages in an electronic machine , i.e computer. 
+0 represents the state when the voltage is not present , that is no current.
+1 represents the state when the voltage is present , that means current is present.
+  
+Heres, a simple real life example, 
+Consider a tray of eggs. , there is a cavity for each egg to sit in safely. And if the presence of an egg in a cavity represents ‘1’ ,then the vacancy would surely mean ‘0’ .This is the principle of binary .
+This gives us and advantage over traditional analogue signals ,which use continuous sine waves for data interchange.
+
+
+
+Parity Bits:
+A bit: bit is the smallest unit of information storage. One byte has 8 individual bits in it.  
+Now what’s parity bit?
+In mathematics, parity refers to the evenness or oddness of an integer. parity bit is an extra bit or digit that is added to a binary code,which  we use to determine the 
+total number of ‘1’s in the code. You might wonder , where is this concept used ? yes, Parity bits checking, is a part of error detection in networks , where we need to ensure the accuracy/security of
+the data transmitted.  
+Only a single bit error is detected by it, if there are errors in two or more bits, then the parity bit wont detect that error.
+There are 2 types of parity: Even parity and Odd parity:
+Basically parity tells us the number of ‘1’s in the given string of data, 
+	Even parity;
+When the number of ‘1’s in the string are odd , then we need to add parity bit as ‘1’. This is called even parity. 
+
+	Odd parity;
+When the number of ‘1’s in the string are even , we do not need to set the parity bit as ‘1’. This is called odd parity.
+Now how we will detect errors?
+For example consider the binary string ‘01001101’ , here the last bit is the parity bit, if for some reason the noise is introduced in the channel, and the number of zeros and ones are changed,The parity bit will let us know that there is an error.This is how parity check works.  
+
+
+Parity Bits magic game;
+This is a small trick or game , which can be used to demonstrate the parity bit checking. This trick requires a pile of identical, two-sided cards. For example, the cards could be red on one side and white on the other. An easy way to make them is to cut up a large sheet of cardboard that is colored on one side only. A pack of playing cards is also suitable.
+
+Decimal to binary conversion:
+When it comes to conversion of number systems, we need to consider the base of every type of number system which we need to convert.
+In this case we are converting from decimal [base 10] to binary [base 2].
+The conversion is rather simple , if it is done manually  on a paper .
+Just divide the decimal number by the base of the number system you want to convert to till you get 0 as a remainder, i.e we will divide the decimal number by 2 
+Let us consider a decimal number 112
+ 
+After we have divided it , we get the following sequence, 0000111, but here one thing to note , 
+We need to start collecting numbers from the end , i.e 1110000 . hence this is the obtained binary number.
